@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.logo{
+    height: 100vh;
+    text-align: center; 
+}
+
+.logo-ig{
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    background-image: url('images/bg-header-mobile.png');
+}
+
+.images{
+    height: 140px;
+    object-fit: cover;
+}
+
+.hist{
+    font-weight: 800;
+    font-size: 1.8rem;
+    padding-bottom: 25px;
+}
+
+.clip{
+    padding-bottom: 30px;
+    color: hsl(201, 11%, 66%);
+    line-height: 30px;
+}
+
+.ios{
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    width: 85%;
+    margin-bottom: 20px;
+    padding: 20px 30px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.mac{
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    width: 85%;
+    padding: 20px 30px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.keep{
+    text-align: center;
+}
+
+.track{
+    font-weight: 800;
+    font-size: 1.8rem;
+    padding-bottom: 25px;
+    padding-top: 30px;
+}
+
+.clipb{
+    color: hsl(201, 11%, 66%);
+    line-height: 30px;
+}
+
+.lapimg{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    padding: 70px 0px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.lapimg-ig{
+    width: 90%;
+    object-fit: cover;
+}
+
+.quick{
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 1.8rem;
+}
+
+.easy{
+    color: hsl(201, 11%, 66%);
+    line-height: 30px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.any{
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 1.8rem;
+}
+
+.whe{
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    line-height: 30px;
+}
+
+.source{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    padding: 70px 0px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.device{
+    width: 90%;
+    object-fit: cover;
+}
+
+.create img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 50px;
+}
+
+.pic img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 50px;
+}
+
+.board{
+    text-align: center;
+    padding-bottom: 40%;
+}
+
+.faq{
+    background-color: lightgrey;
+    height: 90vh;
+    padding: 60px 100px;
+}
+
+.faqs{
+    text-align: center;
+    align-items: center;
+    display: flex; 
+    justify-content: center;
+}
+
+.social{
+    justify-content: space-between;
+    display: flex;
+    padding-top: 20%;
+}
+
+.faq p{
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 1.4rem;
+}
+
+.faqs img{
+    height: 100px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 768px){
+    .logod, .logo-dig, .dimages, .dhist, .dclip, .dany, .dboard, .dclipb, .dtrack, .dcreate, .ddevice, .deasy, .dfaq, .dfaqs, .dkeep, .dlamping, .lapimg-dig, .dpic, .dquick, .dsource, .dsocial, .dlap, .dwhe, .daccess, .dmac, .dios{
+        display: none;
+    }
+}
+
+@media (max-width: 1024px){
+    .logod, .logo-dig, .dimages, .dhist, .dclip, .dany, .dboard, .dclipb, .dtrack, .dcreate, .ddevice, .deasy, .dfaq, .dfaqs, .dkeep, .dlamping, .lapimg-dig, .dpic, .dquick, .dsource, .dsocial, .dlap, .dwhe, .daccess, .dmac, .dios{
+        display: none;
+    }
+}
+
+@media (min-width: 1200px){
+    .any, .board, .clip, .clipb, .create, .device, .easy, .faq, .faqs, .lap, .track .hist, .images, .keep, .lapimg, .lapimg-ig, .logo, .logo-ig, .pic, .quick, .social, .source, .track, .whe, .access, .mac, .ios{
+        display: none;
+    }
+}
+
+/* Desktop veiw */
+
+.logod{
+    text-align: center;
+    height: 90vh; 
+}
+
+.logo-dig{
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    background-image: url('images/bg-header-mobile.png');
+}
+
+.dimages{
+    height: 35%;
+    object-fit: cover;
+}
+
+.dhist{
+    font-weight: 800;
+    font-size: 1.8rem;
+    padding-bottom: 20px;
+}
+
+.dclip{
+    color: hsl(201, 11%, 66%);
+    padding-bottom: 30px;
+    font-size: 1rem;
+    line-height: 30px;
+}
+
+.dios{
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    width: 15%;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 0.9rem;
+}
+
+.dmac{
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    width: 15%;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 0.9rem;
+}
+
+.dkeep{
+    text-align: center;
+}
+
+.dtrack{
+    font-weight: 800;
+    font-size: 1.6rem;
+    padding-bottom: 23px;
+}
+
+.dclipb{
+    color: hsl(201, 11%, 66%);
+    line-height: 25px;
+    font-size: 0.8rem;
+    padding-bottom: 20px;
+}
+
+.dlap{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 200px 70px 0px;
+}
+
+.dlamping{
+    width: 50%;
+    height: 40%;
+}
+
+.lapimg-dig{
+    width: 90%;
+    object-fit: cover;
+}
+
+.dquick{
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 23px;
+    font-size: 1.6rem;
+}
+
+.deasy{
+    font-size: 0.8rem;
+    color: hsl(201, 11%, 66%);
+    line-height: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.dany{
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 23px;
+    font-size: 1.6rem;
+}
+
+.dwhe{
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.dsource{
+    width: 50%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ddevice{
+    width: 90%;
+    object-fit: cover;
+}
+
+.dcreate{
+    justify-content: space-between;
+    padding: 50px 100px;
+    display: flex;
+}
+.dcreate img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 50px;
+}
+
+.dpic{
+    margin-left: auto;
+    margin-right: auto;
+    height: 40vh;
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+
+.dpic img{
+    height: 35px;
+}
+
+.dboard{
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.dfaq{
+    background-color: lightgrey;
+    height: 20vh;
+    padding: 0px 150px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+/* k */
+/* .dfaqs{
+    text-align: center;
+    align-items: center;
+    display: flex; 
+    justify-content: center;
+} */
+
+.dfaqs img{
+    height: 55px;
+}
+
+.dsocial{
+    justify-content: space-between;
+    display: flex;
+    width: 10%;
+}
+
+.dsocial img{
+    height: 20px;
+}
+.dfaq p{
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.dfaqs img{
+    height: 100px;
+    padding-bottom: 20px;
+}
